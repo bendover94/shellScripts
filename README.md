@@ -8,7 +8,19 @@ chmod +x xxx.sh
 ---
 ---
 
+## Install aliases into ~/.bash_aliases
+Command:
+```bash
+./install_bash_aliases.sh
+```
+
+Notes:
+
+NONE
+
 <br>
+
+---
 
 ## Install ROS Noetic (for Ubuntu 20.04)
 Command:
@@ -17,6 +29,8 @@ Command:
 ```
 
 Notes:
+
+NONE
 
 <br>
 
