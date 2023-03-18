@@ -3,6 +3,12 @@ echo -e "\n\nGeneral update\n"
 sudo apt update && sudo apt upgrade -y
 ####
 
+
+echo -e "\nInstall QT5\n"
+sudo apt-get install build-essential
+sudo apt-get install libx11-xcb-dev libglu1-mesa-dev
+
+
 echo -e "\n\nInstall OpenCv 3.4.13\n"
 cd /opt
 #sudo -s # do it before starting the script

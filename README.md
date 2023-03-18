@@ -44,6 +44,11 @@ Command:
 
 Notes:
 
+do the following before starting the script:
+```bash
+sudo -s
+```
+
 If needed, mod the CMake build arguments before running the script.
 
 <br>
