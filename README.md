@@ -25,7 +25,7 @@ NONE
 ## Install ROS Noetic (for Ubuntu 20.04)
 Command:
 ```bash
-./install_openCv.sh
+./install_ROS_noetic.sh
 ```
 
 Notes:
@@ -39,7 +39,7 @@ NONE
 ## Install OpenCv 3.4.13
 Command:
 ```bash
-./install_ROS_noetic.sh
+./install_openCv.sh
 ```
 
 Notes:
