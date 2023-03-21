@@ -9,6 +9,10 @@ sudo apt-get install build-essential
 sudo apt-get install libx11-xcb-dev libglu1-mesa-dev
 ###
 
+echo -e "\nInstall UNZIP\n"
+sudo apt install unzip -y
+###
+
 echo -e "\n\nInstall OpenCv 3.4.13\n"
 cd /opt
 #sudo -s # do it before starting the script
