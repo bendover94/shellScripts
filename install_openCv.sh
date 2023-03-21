@@ -1,25 +1,30 @@
 #!/bin/bash
+#sudo -s # do it before starting the script
+
 echo -e "\n\nGeneral update\n"
-sudo apt update && sudo apt upgrade -y
+apt update && sudo apt upgrade -y
 ####
 
 
 echo -e "\nInstall QT5\n"
-sudo apt-get install build-essential
-sudo apt-get install libx11-xcb-dev libglu1-mesa-dev
+apt-get install build-essential
+apt-get install libx11-xcb-dev libglu1-mesa-dev
 ###
 
 echo -e "\nInstall UNZIP\n"
-sudo apt install unzip -y
+apt install unzip -y
+###
+
+echo -e "\nInstall PKG-config\n"
+apt install pkg-config -y
 ###
 
 echo -e "\nInstall Cmake\n"
-sudo apt install cmake -y
+apt install cmake -y
 ###
 
 echo -e "\n\nInstall OpenCv 3.4.13\n"
 cd /opt
-#sudo -s # do it before starting the script
 ####
 
 echo -e "\n\nGetting sources\n"
