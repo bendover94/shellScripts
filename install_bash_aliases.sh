@@ -6,5 +6,6 @@ echo "alias pandemic='clang++ -std=c++17 -g -Wall -Werror -Wextra -pedantic'" >>
 echo "alias ll='ls -l'" >> ~/.bash_aliases
 echo "alias la='ls -a'" >> ~/.bash_aliases
 echo "alias covid='clear'" >> ~/.bash_aliases
+echo "alias makeUpdate='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'" >> ~/.bash_aliases
 echo "alias note="echo $'\a'"" >> ~/.bash_aliases
 echo "alias c='code .'" >> ~/.bash_aliases
