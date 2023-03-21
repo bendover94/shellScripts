@@ -13,6 +13,10 @@ echo -e "\nInstall UNZIP\n"
 sudo apt install unzip -y
 ###
 
+echo -e "\nInstall Cmake\n"
+sudo apt install cmake -y
+###
+
 echo -e "\n\nInstall OpenCv 3.4.13\n"
 cd /opt
 #sudo -s # do it before starting the script
