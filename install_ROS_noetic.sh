@@ -15,6 +15,10 @@ echo "\nInstallation\n"
 sudo apt update
 sudo apt install ros-noetic-desktop-full
 sudo apt install ros-noetic-slam-gmapping
+sudo apt install ros-noetic-amcl
+sudo apt install ros-noetic-dwa-local-planner
+sudo apt install ros-noetic-map-server
+sudo apt install ros-noetic-move-base
 
 ####
 echo "\nEnvironment setup\n"
