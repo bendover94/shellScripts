@@ -9,3 +9,4 @@ echo "alias covid='clear'" >> ~/.bash_aliases
 echo "alias makeUpdate='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'" >> ~/.bash_aliases
 echo "alias note="echo $'\a'"" >> ~/.bash_aliases
 echo "alias c='code .'" >> ~/.bash_aliases
+echo "alias mydir='~/./PRIV/shellScripts/mydir/mydir.sh'" >> ~/.bash_aliases
