@@ -23,6 +23,8 @@ run to insert alias
 echo "alias mydir='~/./your/path/to/mydir.sh'" >> ~/.bash_aliases
 ```
 
+Done.
+
 <br>
 
 ---
