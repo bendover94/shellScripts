@@ -10,7 +10,9 @@ It enables you to type `mydir` instead of `mkdir`:
 
 - Copy the `mydir` folder into your workspace.
 
-- Modify the `mydir.sh` and the `template.md`.
+- Modify the `mydir.sh` and the `template.md` as you like
+
+- Change the path to `template.md` inside the `mydir.sh`
 
 - Than make the `.sh` script executable.
 
@@ -18,7 +20,7 @@ It enables you to type `mydir` instead of `mkdir`:
 chmod +x mydir.sh
 ```
 
-run to insert alias
+run to insert alias (modify path)
 ```bash
 echo "alias mydir='~/./your/path/to/mydir.sh'" >> ~/.bash_aliases
 ```
