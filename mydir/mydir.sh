@@ -8,14 +8,14 @@ cd $1
 
 # get the current date, the template.md file and mem for the new Readme.md
 current_date=$(date +%d.%m.%Y)
-templateFile=/home/user/path/to/mydir/template.md
+templateFile=/home/lucas/PRIV/shellScripts/mydir/template.md
 Readme=Readme.md
 
 # copy the template.md into your new directory, naming it Readme.md
 cp $templateFile $Readme
 
 # change the first line of your Readme.md file
-sed -i "1s/.*/# This is the \`"$1"\` Project\ncreated by Your Name on: "$current_date", last edit: "$current_date"\n/" $Readme
+sed -i "1s/.*/# This is the \`"$1"\` Project\ncreated by Lucas Schmirl on: "$current_date", last edit: "$current_date"\n/" $Readme
 
 # open your new folder in vscode
 code .

@@ -1,0 +1,23 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+!*Makefile
+!*README.md
+
+# Ignore files with specific extension
+mydir_openCv.sh
+template_openCv.md
+mydir_openCv/
+.vscode/
+*.o
+*.out
+*:Zone.Identifier
+*.pdf
+*.json
+*.csv
+*.mp4
