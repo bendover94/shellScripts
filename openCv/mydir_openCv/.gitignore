@@ -10,9 +10,6 @@
 !*README.md
 
 # Ignore files with specific extension
-# mydir_openCv.sh
-# template_openCv.md
-# mydir_openCv/
 .vscode/
 *.o
 *.out
